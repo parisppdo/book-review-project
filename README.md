@@ -1,6 +1,6 @@
 # Book Review Project created in Laravel
 
-In this project I am currently making a site that has Book reviews. 
+In this project I am currently making a site that has Book reviews. The user has the ability to add reviews and rate a book.
 Using Local Scopes I am able to present the books using filters like "Popular last month", "Highest rated" etc. Those filters are applied in the main page. Clicking a book, shows a page with its reviews sorted according to the date. For faster browsing, I implemented Caching queries as well as invalidation of the cached data.
 In the project I use Factories and Seeders in order to be able to have data in the database.
 
