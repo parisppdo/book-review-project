@@ -21,6 +21,9 @@
       Add a Review!
     </a>
   </div>
+  <div class="mb-4">
+      <a class="link" href="{{ route('books.index') }}">← Go back to the book list!</a>
+  </div>
   <div>
     <h2 class="mb-4 text-xl font-semibold">Reviews</h2>
     <ul>
@@ -29,7 +32,7 @@
           <div>
             <div class="mb-2 flex items-center justify-between">
               <div class="font-semibold">
-                <x-star-rating :rating="$review->rating" />>  
+                <x-star-rating :rating="$review->rating" />>
               </div>
               <div class="book-review-count">
                 {{ $review->created_at->format('M j, Y') }}</div>
