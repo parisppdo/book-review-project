@@ -1,14 +1,30 @@
-# Book Review Project created in Laravel
+# 📚 Book Reviews
 
-In this project I am currently making a site that has Book reviews. The user has the ability to add reviews and rate a book. However, by using Rate Limiting Middleware, every user is limited to add 3 reviews per hour.
-Using Local Scopes I am able to present the books using filters like "Popular last month", "Highest rated" etc. Those filters are applied in the main page. Clicking a book, shows a page with its reviews sorted according to the date. For faster browsing, I implemented Caching queries as well as invalidation of the cached data.
-In the project I use Factories and Seeders in order to be able to have data in the database.
+## 📝 Overview
+A Laravel-based application that allows users to browse, read, and write reviews for various books. The platform offers a comprehensive collection of book reviews, enabling users to share their thoughts and discover new reads.
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## 📸 Screenshot
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<img src="screenshots/overview.jpg" alt="Book Reviews App Screenshot" width="400">
+<img src="screenshots/book-reviews.jpg" alt="Book Reviews Screenshot" width="400">
+
+
+
+
+## 🚀 Features
+✔️ Browse a wide selection of books  
+✔️ Read detailed reviews from other users  
+✔️ Write and submit your own book reviews  
+✔️ User authentication for personalized experiences  
+✔️ Search functionality to find books and reviews quickly  
+✔️ Responsive design for optimal viewing on all devices
+
+## 📌 Usage
+* **Browse Books**: Navigate through the collection to find books of interest.
+* **Read Reviews**: Click on a book to read reviews submitted by other users.
+* **Write a Review**: After logging in, select a book and submit your own review.
+* **Search**: Use the search bar to quickly find specific books or authors.
+
+## ❗ Known Issues
+- No authentication (anyone can write a review).
+    - 🔹 This feature is planned for a future update.
